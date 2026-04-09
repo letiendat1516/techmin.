@@ -78,8 +78,7 @@ const Services = () => {
           {services.map((service, i) => (
             <article
               key={service.title}
-              className="group rounded-2xl bg-white p-8 shadow-[0_2px_8px_0_rgba(0,0,0,0.07)] ring-1 ring-black/[0.06] transition-all duration-300 hover:shadow-[0_20px_40px_-12px_rgba(0,0,0,0.12)] hover:-translate-y-1 animate-fade-up"
-              style={{ animationDelay: `${i * 0.12}s`, animationFillMode: "both" }}
+              className="group rounded-2xl bg-white p-8 shadow-[0_2px_8px_0_rgba(0,0,0,0.07)] ring-1 ring-black/[0.06] transition-shadow duration-300 hover:shadow-[0_20px_40px_-12px_rgba(0,0,0,0.12)]"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-apple-gray-5 text-apple-gray-2 transition-colors duration-300 group-hover:bg-apple-blue group-hover:text-white">
                 {serviceIcons[i]}
