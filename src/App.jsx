@@ -6,6 +6,7 @@ import Benefits from "./components/Benefits.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import CTASection from "./components/CTASection.jsx";
 import Footer from "./components/Footer.jsx";
+import logoZalo from "./assets/zalo-logo.jpg";
 
 const ZaloBubble = () => (
   <a
@@ -25,7 +26,7 @@ const ZaloBubble = () => (
     >
       {/* Ping ring */}
       <span className="absolute inset-0 animate-ping rounded-full opacity-20" style={{ background: "#0068ff" }} />
-      <img src="/zalo-logo.jpg" alt="Zalo" className="relative h-10 w-10 rounded-full object-cover" />
+      <img src={logoZalo} alt="Zalo" className="relative h-10 w-10 rounded-full object-cover" />
     </div>
   </a>
 );

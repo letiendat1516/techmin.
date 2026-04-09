@@ -1,5 +1,6 @@
 import { useState, useCallback, useRef, useEffect } from "react";
 import { createPortal } from "react-dom";
+import logoUrl from "../assets/logo.png";
 
 /* ─── helpers ─────────────────────────────────────── */
 const uid = () => Math.random().toString(36).slice(2, 8);
@@ -613,7 +614,7 @@ const LockScreen = ({ onUnlock }) => {
 				<div className="h-16 w-16 rounded-full overflow-hidden shadow-2xl"
 					style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.35)" }}
 				>
-					<img src="/logo.png" alt="TechMin" className="h-full w-full object-cover" />
+					<img src={logoUrl} alt="TechMin" className="h-full w-full object-cover" />
 				</div>
 				<div className="flex flex-col items-center leading-none">
 					<p className="text-[15px] font-semibold tracking-tight text-white drop-shadow-lg">

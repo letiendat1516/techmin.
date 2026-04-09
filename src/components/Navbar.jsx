@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logoUrl from "../assets/logo.png";
 
 const links = [
   { label: "Dịch vụ", href: "services" },
@@ -27,7 +28,7 @@ const Navbar = () => {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5">
-          <img src="/logo.png" alt="TechMin logo" className="h-11 w-auto object-contain" />
+          <img src={logoUrl} alt="TechMin logo" className="h-11 w-auto object-contain" />
           <div className="flex flex-col items-center leading-none">
             <span className="text-[17px] font-semibold tracking-tight text-apple-gray-1">
               TechMin<span className="text-apple-blue">.</span>
