@@ -64,8 +64,8 @@ const Benefits = () => {
       >
         <SectionHeading
           eyebrow="Lợi ích"
-          title="Phần mềm làm việc."
-          highlight="Bạn làm chủ."
+          title="Hệ thống vận hành ổn định,"
+          highlight="giúp bạn kiểm soát toàn bộ quy trình trên một nền tảng duy nhất."
           description="Tiết kiệm hàng giờ mỗi ngày, loại bỏ sai sót thủ công và kiểm soát toàn bộ nghiệp vụ ngay trên một màn hình."
         />
 

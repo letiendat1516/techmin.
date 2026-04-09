@@ -27,7 +27,7 @@ const stats = [
 
 const FEATURE_CHIPS = [
   { label: "Tuỳ chỉnh 100%", icon: "✦" },
-  { label: "Không phí ẩn", icon: "✦" },
+  { label: "Báo giá rõ ràng", icon: "✦" },
   { label: "Giá minh bạch", icon: "✦" },
   { label: "Triển khai nhanh chóng", icon: "✦" },
   { label: "Bảo trì 12 tháng", icon: "✦" },
@@ -51,7 +51,7 @@ const HIGHLIGHTS = [
       </svg>
     ),
     title: "Giá minh bạch từ đầu",
-    sub: "Báo giá trọn gói trước khi ký hợp đồng. Không phí ẩn, không phát sinh.",
+    sub: "Báo giá rõ ràng ngay từ đầu, hạn chế tối đa chi phí phát sinh.",
   },
   {
     icon: (
@@ -60,7 +60,7 @@ const HIGHLIGHTS = [
       </svg>
     ),
     title: "Triển khai phát triển nhanh chóng",
-    sub: "Quy trình tinh gọn, bàn giao đúng hạn, không chờ đợi mòn mỏi.",
+    sub: "Quy trình triển khai rõ từng bước, có timeline cụ thể, bàn giao đúng hạn.",
   },
   {
     icon: (
@@ -119,7 +119,7 @@ const Hero = () => {
               backgroundClip: "text",
             }}
           >
-            Giải pháp cho doanh nghiệp vừa &amp; nhỏ
+            Từ cá nhân đến doanh nghiệp — giải pháp phù hợp cho mọi giai đoạn phát triển
           </p>
           <p className="text-[11px] font-medium uppercase tracking-[0.22em]" style={{ color: "#86868b" }}>
             Made in Vietnam · Thi công theo yêu cầu · Hỗ trợ tận tâm
@@ -141,9 +141,9 @@ const Hero = () => {
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-subtitle text-apple-gray-2">
-          Các phần mềm có sẵn thường cứng ngắc, không tuỳ biến được —{" "}
-          <strong className="font-semibold text-apple-gray-1">chúng tôi thi công riêng cho bạn</strong>,
-          tinh chỉnh theo từng quy trình thực tế, giá minh bạch và hỗ trợ lâu dài.
+          Phần mềm có sẵn thường khó đáp ứng đúng quy trình vận hành thực tế.{" "}
+          <strong className="font-semibold text-apple-gray-1">TechMin xây dựng hệ thống riêng cho từng doanh nghiệp</strong>,
+          tối ưu theo nhu cầu sử dụng, báo giá minh bạch và hỗ trợ dài hạn.
         </p>
 
         {/* ── Feature chips — căn giữa nội dung ── */}
