@@ -51,7 +51,8 @@ const Navbar = () => {
           ))}
           <a
             href="#cta"
-            className="rounded-full bg-apple-blue px-5 py-2 text-sm font-medium text-white transition-all duration-200 hover:bg-apple-bluehover"
+            className="rounded-full px-5 py-2 text-sm font-medium transition-all duration-200"
+            style={{ backgroundColor: "#0071e3", color: "#ffffff" }}
           >
             Liên hệ
           </a>
