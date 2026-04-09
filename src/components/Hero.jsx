@@ -222,7 +222,7 @@ const Hero = () => {
       </div>
 
       {/* Interactive app mockup */}
-      <div className="mx-auto mt-4 max-w-5xl px-6 md:mt-6 animate-float-slow">
+      <div className="mx-auto mt-4 max-w-5xl px-6 md:mt-6">
         <AppMockup />
       </div>
 
