@@ -127,7 +127,7 @@ const Hero = () => {
         </div>
 
         {/* ── Headline ── */}
-        <h1 className="font-display text-hero text-apple-gray-1">
+        <h1 className="font-display text-apple-gray-1" style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)", lineHeight: 1.15, letterSpacing: "-0.025em", fontWeight: 600 }}>
           Không có bản nào{" "}
           <br className="hidden sm:block" />
           <span style={{
