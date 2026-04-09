@@ -119,7 +119,7 @@ const Hero = () => {
               backgroundClip: "text",
             }}
           >
-            Giải pháp phần mềm cho cá nhân, startup và doanh nghiệp
+            Giải pháp phần mềm cho cá nhân và doanh nghiệp
           </p>
           <p className="text-[11px] font-medium uppercase tracking-[0.22em]" style={{ color: "#86868b" }}>
             Made in Vietnam · Thi công theo yêu cầu · Hỗ trợ tận tâm
