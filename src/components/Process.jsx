@@ -11,8 +11,8 @@ const Process = () => {
         <SectionHeading
           eyebrow="Quy trình"
           title="Rõ ràng từng bước."
-          highlight="Bạn không bao giờ bị bỏ lại."
-          description="Từ cuộc gọi đầu tiên đến khi hệ thống chạy — bạn luôn biết đang ở đâu và tiếp theo là gì."
+          highlight="Minh bạch từng giai đoạn."
+          description="Từ bước trao đổi ban đầu đến khi hệ thống vận hành, tiến độ và các bước tiếp theo luôn được cập nhật rõ ràng."
         />
 
         <div className="relative mt-16">

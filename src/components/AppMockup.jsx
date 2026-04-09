@@ -309,7 +309,7 @@ const FormPanel = ({ fields, initial, accent, title, onSave, onCancel }) => {
 	const set = (k, v) => setVals(p => ({ ...p, [k]: v }));
 
 	return (
-		<div className="flex h-full flex-col bg-white" style={{ animation: "formSlide .22s cubic-bezier(.22,1,.36,1) forwards" }}>
+		<div className="flex h-full flex-col bg-white">
 			<div className="flex items-center justify-between border-b border-gray-200 bg-gray-50 px-4 py-3">
 				<p className="text-xs font-bold text-gray-700">{title}</p>
 				<button onClick={onCancel} className="rounded-lg p-1 text-gray-400 hover:bg-gray-200">
@@ -505,7 +505,7 @@ const Dock = ({ apps, openId, onOpen }) => (
 			{apps.map(app => (
 				<div key={app.id} className="group relative flex flex-col items-center">
 					<button onClick={(e) => onOpen(app, e.currentTarget)}
-						className="flex h-10 w-10 items-center justify-center rounded-xl shadow-lg transition-all duration-200 group-hover:-translate-y-2 group-hover:scale-[1.2] active:scale-95"
+						className="flex h-10 w-10 items-center justify-center rounded-xl shadow-lg"
 						style={{ background: `linear-gradient(145deg,${app.from},${app.to})` }}>
 						<I d={ICONS[app.iconKey]} className="h-5 w-5 text-white" />
 					</button>
@@ -518,7 +518,7 @@ const Dock = ({ apps, openId, onOpen }) => (
 			<div className="mx-1 h-8 w-px bg-white/20" />
 			<div className="group relative flex flex-col items-center">
 				<button onClick={() => window.location.hash = "#cta"}
-					className="flex h-10 w-10 items-center justify-center rounded-xl border-2 border-dashed border-white/40 transition-all duration-200 group-hover:-translate-y-2 group-hover:scale-[1.2] group-hover:bg-white/20 active:scale-95">
+					className="flex h-10 w-10 items-center justify-center rounded-xl border-2 border-dashed border-white/40 group-hover:bg-white/20">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="h-5 w-5 opacity-70">
 						<path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
 					</svg>

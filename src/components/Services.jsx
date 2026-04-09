@@ -69,8 +69,8 @@ const Services = () => {
       >
         <SectionHeading
           eyebrow="Dịch vụ"
-          title="không phải thuê từng tháng."
-          highlight="mua 1 lần dùng mãi mãi."
+          title="Không phải thuê từng tháng."
+          highlight="Mua 1 lần dùng mãi mãi."
           description="Mỗi hệ thống được xây từ đầu, đúng theo quy trình thực tế của bạn — không ép khuôn, không tính năng thừa."
         />
 
